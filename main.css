@@ -8,11 +8,13 @@
   width: 100vw;
 }
 .container {
+  background: url(assets/Tauplitz.jpg) no-repeat center center fixed;
+  background-size: cover;
   height: 100vh;
   width: 100%;
   max-width: calc(100vw - 10px);
   margin: 0 auto;
-  background-color: red;
+  
 }
 .about {
   float: right;
@@ -31,7 +33,6 @@
   position: relative;
   left: 10vw;
   top: 15vh;
-  background-color: yellow;
   width: 40vw;
   max-width: calc (100vw-5vw);
   height: 50vh;
