@@ -14,7 +14,11 @@
   width: 100%;
   max-width: calc(100vw - 10px);
   margin: 0 auto;
-  
+  font-family: 'Scope One';
+  font-size: 2.6vh;
+  color: #666666;
+  letter-spacing: 0.06em;
+  line-height: 1.6;
 }
 .about {
   float: right;
@@ -25,6 +29,7 @@
   width: 45vw;
   height: 50vh;
   border-radius: 15px;
+  background-color: rgb(217, 217, 217, .8);
 }
 .profile-picture {
   display: flex;
@@ -43,3 +48,14 @@ img {
   border-radius: 50%;
   float: right;
   }
+p, h1 {
+  
+}
+.name {
+  padding: 3vw;
+  text-align: center;
+}
+.description {
+  text-align: left justify;
+
+}
