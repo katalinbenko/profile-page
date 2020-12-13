@@ -8,7 +8,7 @@
   width: 100vw;
 }
 .container {
-  background: url(assets/Tauplitz.jpg) no-repeat center center fixed;
+  background: url(assets/Riesenrad.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -23,7 +23,6 @@
 }
 .about {
   float: right;
-  background-color: aquamarine;
   position: relative;
   right: 16vw;
   bottom: 15vh;
@@ -37,25 +36,27 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 10vw;
+  left: 8vw;
   top: 3vh;
   width: 40vw;
   max-width: calc (100vw-5vw);
   height: 50vh;
-  }
+}
 img {
-  height: auto;
+  height: inherit;
   max-width: 100%;
   border-radius: 50%;
-  float: right;
 }
 .name {
-  padding: 3vw;
+  padding-top: 3vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  padding-bottom: 3vh;
   text-align: center;
 }
 .description {
-  text-align: left justify;
-  margin: 3vh 2vh;
+  padding-top: 2vh;
+  text-align: justify;
 }
 li {
   display: inline;
@@ -63,17 +64,16 @@ li {
 }
 .contact {
   text-align: center;
-  margin-top: 4h;
 }
 .icon {
   color: #8c8c8c;
 }
 ul {
-  margin-top: 1px;
+  margin-top: 0.5vh;
 }
 hr {
   border: 1px solid #8c8c8c;
-  margin: 20px 30px 20px 30px;
+  margin: 0px 30px 10px 30px;
 }
 img:hover {
   transform: scale(1.1);
