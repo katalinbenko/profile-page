@@ -16,7 +16,7 @@
   margin: 0 auto;
   font-family: 'Scope One';
   font-size: 2.6vh;
-  color: #4d4d4d;
+  color: #404040;
   letter-spacing: 0.06em;
   line-height: 1.6;
   position: fixed;
@@ -73,7 +73,7 @@ ul {
 }
 hr {
   border: 1px solid #8c8c8c;
-  margin: 0px 30px 10px 30px;
+  margin: 0px 3vw 1vh 3vw;
 }
 img:hover {
   transform: scale(1.1);
@@ -94,4 +94,11 @@ a {
 a:hover{
   color: #0059b3;
   font-weight: 600;
+}
+.description::first-letter{
+  font-size: 4vh;
+  font-weight: bold;
+}
+h1 {
+  font-size: 4.5vh;
 }
