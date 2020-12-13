@@ -42,12 +42,10 @@
   left: 8vw;
   top: 3vh;
   width: 40vw;
-  max-width: calc (100vw-5px);
   height: 25vw;
 }
 img {
   height: inherit;
-  max-width: 100%;
   border-radius: 50%;
 }
 .name {
