@@ -19,30 +19,30 @@
   letter-spacing: 0.06em;
   line-height: 1.6;
   position: fixed;
-  font-size: 1.13vw;
+  font-size: 0.8vw;
 }
 .about {
-  float: right;
-  position: relative;
+  position: absolute;
   right: 16vw;
-  bottom: 7vw;
+  bottom: 12vw;
   width: 50vw;
-  height: 28vw;
+  height: 20vw;
   border-radius: 15px;
   background-color: rgb(217, 217, 217, .9);
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 70px;
+  z-index: 1;
   overflow: auto;
-   
 }
 .profile-picture {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  left: 8vw;
-  top: 3vh;
-  width: 40vw;
-  height: 25vw;
+  position: absolute;
+  left: 20vw;
+  top: 18vh;
+  width: 22vw;
+  height: 12vw;
+  z-index: 2;
 }
 img {
   height: inherit;
@@ -98,5 +98,5 @@ a:hover{
   font-weight: bold;
 }
 h1 {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
 }
